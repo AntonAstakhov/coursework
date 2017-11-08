@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anton.coursework.AddEmployeeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:layout_marginTop="20dp"
+            android:hint="ПІБ"
+            android:inputType="text|textCapSentences"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"/>
+
+        <!--<EditText-->
+            <!--android:id="@+id/editAge"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="Вік"-->
+            <!--android:inputType="number"-->
+            <!--android:textSize="18sp"-->
+            <!--android:layout_alignBaseline="@+id/editName"-->
+            <!--android:layout_alignBottom="@+id/editName"-->
+            <!--android:layout_toRightOf="@+id/editName"-->
+            <!--android:layout_toEndOf="@+id/editName"-->
+            <!--android:layout_marginLeft="120dp"/>-->
+
+        <EditText
+            android:layout_alignBaseline="@+id/editName"
+            android:id="@+id/editSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Стать"
+            android:inputType="text|textCapSentences"
+            android:textSize="18sp"
+            android:layout_below="@+id/editAge"
+            android:layout_toRightOf="@+id/editName"
+            android:layout_toEndOf="@+id/editName"
+            android:layout_marginLeft="120dp"/>
+
+        <TextView
+            android:id="@+id/editDob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Дата народження"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:layout_below="@+id/editExperience"
+            android:layout_alignLeft="@+id/editSex"
+            android:layout_alignStart="@+id/editSex"
+            />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Телефон"
+            android:inputType="phone"
+            android:textSize="18sp"
+            android:layout_below="@+id/editSex"
+            android:layout_alignLeft="@+id/editDob"
+            android:layout_alignStart="@+id/editDob" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Адреса електронної пошти"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:layout_below="@+id/editName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Адреса прописки"
+            android:inputType="text|textCapSentences"
+            android:textSize="18sp"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/editEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:id="@+id/editPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="40"
+            android:hint="Посада"
+            android:inputType="text|textCapSentences"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editAddress"
+            android:layout_alignRight="@+id/editAddress"
+            android:layout_alignEnd="@+id/editAddress"
+            android:layout_alignLeft="@+id/editAddress"
+            android:layout_alignStart="@+id/editAddress" />
+
+        <EditText
+            android:id="@+id/editExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Досвід"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:layout_below="@+id/editSalary"
+            android:layout_alignLeft="@+id/editSalary"
+            android:layout_alignStart="@+id/editSalary" />
+
+        <EditText
+            android:id="@+id/editPassport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Паспорт"
+            android:inputType="text|textCapSentences"
+            android:textSize="18sp"
+            android:layout_below="@+id/editPhone"
+            android:layout_alignLeft="@+id/editPhone"
+            android:layout_alignStart="@+id/editPhone" />
+
+        <EditText
+            android:id="@+id/editSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Зарплата"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@+id/editPassport"
+            android:layout_alignLeft="@+id/editPassport"
+            android:layout_alignStart="@+id/editPassport" />
+
+        <EditText
+            android:id="@+id/editBankAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Банківський рахунок"
+            android:inputType="text|textCapSentences"
+            android:textSize="18sp"
+            android:layout_alignLeft="@+id/editPosition"
+            android:layout_alignStart="@+id/editPosition"
+            android:layout_marginTop="21dp"
+            android:layout_below="@id/editPosition"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Виберіть департамент:"
+            android:layout_alignBaseline="@+id/editPhone"
+            android:layout_alignBottom="@+id/editPhone"
+            android:layout_alignLeft="@+id/switch1"
+            android:layout_alignStart="@+id/switch1" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:layout_above="@+id/editAddress"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Статус: вільний"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/editSex"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="123dp"
+            android:layout_marginEnd="123dp" />
+
+    </RelativeLayout>
+
+</ScrollView>
+

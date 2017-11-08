@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="25dp">
+
+    <TextView
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/id"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="id" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editBeginDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Begin date" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editDeadline"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Deadline" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editPriority"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Priority" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editProgress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Progress" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editWorkingHours"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Working Hours" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/p_id"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="p_id" />
+
+
+</LinearLayout>

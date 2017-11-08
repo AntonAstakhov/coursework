@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_tables">
+        <item
+            android:id="@+id/manager"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:title="Таблиця ''Менеджери''" />
+        <item
+            android:id="@+id/department"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:title="Таблиця ''Департаменти''" />
+        <item
+            android:id="@+id/employee"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:title="Таблиця ''Робітники''" />
+        <item
+            android:id="@+id/task"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:title="Таблиця ''Завдання''" />
+        <item
+            android:id="@+id/stage"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:title="Таблиця ''Етапи''" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_reports">
+        <item
+            android:id="@+id/report1"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Звіт по завданням" />
+        <item
+            android:id="@+id/report2"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Звіт по працівникам" />
+    </group>
+
+</menu>

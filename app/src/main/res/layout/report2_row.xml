@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="25sp"
+            android:text="Manager"
+            android:id="@+id/manager"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="20dp"
+                android:textSize="14sp"
+                android:text="Підлеглих:"
+                />
+
+            <TextView
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textSize="14sp"
+                android:text="1000"
+                android:id="@+id/employee"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp">
+
+
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Зайнято підлеглих: "
+            android:paddingTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/busy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1000"
+            android:textSize="22sp"
+            android:paddingTop="23dp"/>
+
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Вільно підлеглих: "
+            android:paddingTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/free"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1000"
+            android:textSize="22sp"
+            android:paddingTop="23dp"/>
+
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Підлеглих, що зривали графік: "
+            android:paddingTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/overdue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1000"
+            android:textSize="22sp"
+            android:paddingTop="23dp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

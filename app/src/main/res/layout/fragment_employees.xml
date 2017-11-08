@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.anton.coursework.EmployeesFragment">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="id"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="ПІБ"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Вік"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Стать"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Дата народ..."/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Телефон"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Електронна пошта"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Адреса"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Посада"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Досвід"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Паспорт"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Зарплата"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Рахунок"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="Статус"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:text="p_id"/>
+
+    </LinearLayout>
+
+    <View android:background="#000000"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    <ListView
+        android:clipToPadding="false"
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <Button
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#ffff"
+        android:text="Додати нового робітника" />
+
+</LinearLayout>
+</FrameLayout>

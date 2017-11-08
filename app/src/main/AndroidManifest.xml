@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anton.coursework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddManagerActivity"
+            android:label="Додати нового менеджера"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditManagerActivity"
+            android:label="Редагування даних про менеджера"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AddDepartmentActivity"
+            android:label="Додати новий департамент"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditDepartmentActivity"
+            android:label="Редагування даних про департамент"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AddEmployeeActivity"
+            android:label="Додати нового робітника"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditEmployeeActivity"
+            android:label="Редагування даних про робітника"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:label="Додати нове завдання"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditTaskActivity"
+            android:label="Редагування даних про завдання"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AddStageActivity"
+            android:label="Додати новий етап"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditStageActivity"
+            android:label="Редагування даних про етап"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Report1Activity"
+            android:label="Звіт 1"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Report2Activity"
+            android:label="Звіт 2"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".Report1DetailsActivity"
+            android:label="Звіт 1"
+            android:parentActivityName=".Report1Activity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".Report2DetailsActivity"
+            android:label="Звіт 2"
+            android:parentActivityName=".Report2Activity"
+            android:screenOrientation="landscape">
+
+        </activity>
+    </application>
+
+</manifest>

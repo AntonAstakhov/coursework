@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="25dp">
+
+    <TextView
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/id"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="id" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editBeginDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="beginDate" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editDeadline"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="deadline" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/editStatus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="status" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/p_id"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="p_id" />
+
+
+</LinearLayout>
